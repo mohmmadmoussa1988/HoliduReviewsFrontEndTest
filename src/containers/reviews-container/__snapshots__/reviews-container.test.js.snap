@@ -1,0 +1,354 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReviewsContainer /> should render ReviewsContainer 1`] = `
+<div>
+  <div
+    className="sc-bdfBwQ cTGYiZ"
+  >
+    <div
+      className="sc-gsTCUz cgUsnC"
+    >
+      <h2
+        className="sc-dlfnbm ecoAzr"
+      >
+        0
+         Reviews
+      </h2>
+      <form
+        onSubmit={[Function]}
+      >
+        <div
+          className="sc-hBEYos fbWFZb"
+        >
+          <div
+            className="sc-fKFyDc pcebh"
+          >
+            Filter
+          </div>
+          <div
+            className="sc-fodVxV cpmaGk"
+          >
+            <label>
+              By Score
+            </label>
+            <select
+              className="sc-bkzZxe NQScc"
+              name="IntegerPart"
+              onChange={[Function]}
+              value=""
+            >
+              <option
+                value=""
+              />
+              <option
+                value={0}
+              >
+                 
+                0
+              </option>
+              <option
+                value={1}
+              >
+                 
+                1
+              </option>
+              <option
+                value={2}
+              >
+                 
+                2
+              </option>
+              <option
+                value={3}
+              >
+                 
+                3
+              </option>
+              <option
+                value={4}
+              >
+                 
+                4
+              </option>
+              <option
+                value={5}
+              >
+                 
+                5
+              </option>
+            </select>
+            <div
+              className="sc-kfzAmx kQNYKT"
+            >
+              .
+            </div>
+            <select
+              className="sc-idOhPF liogyI"
+              name="FractionalPart"
+              onChange={[Function]}
+              value=""
+            >
+              <option
+                value=""
+              />
+              <option
+                value={0}
+              >
+                0
+              </option>
+              <option
+                value={1}
+              >
+                1
+              </option>
+              <option
+                value={2}
+              >
+                2
+              </option>
+              <option
+                value={3}
+              >
+                3
+              </option>
+              <option
+                value={4}
+              >
+                4
+              </option>
+              <option
+                value={5}
+              >
+                5
+              </option>
+              <option
+                value={6}
+              >
+                6
+              </option>
+              <option
+                value={7}
+              >
+                7
+              </option>
+              <option
+                value={8}
+              >
+                8
+              </option>
+              <option
+                value={9}
+              >
+                9
+              </option>
+            </select>
+          </div>
+          <div
+            className="sc-fodVxV cpmaGk"
+          >
+            <label>
+              By Channel
+            </label>
+            <select
+              className="sc-dIUggk cwXomD"
+              name="Channels"
+              onChange={[Function]}
+              value=""
+            >
+              <option
+                value=""
+              />
+              <option
+                value="AIRBNB"
+              >
+                AIRBNB
+              </option>
+              <option
+                value="HOLIDU"
+              >
+                HOLIDU
+              </option>
+              <option
+                value="BOOKINGCOM"
+              >
+                BOOKINGCOM
+              </option>
+            </select>
+          </div>
+          <div
+            className="sc-fFubgz kMqHpz"
+          >
+            <button
+              className="sc-dmlrTW dAwzsg"
+              onClick={[Function]}
+              type="reset"
+            >
+              Clear
+            </button>
+            <button
+              className="sc-hHftDr dLDjBZ"
+              type="submit"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div
+      className="sc-hKgILt hsvTqH"
+    >
+      <div
+        aria-busy="true"
+        className=""
+        style={Object {}}
+      >
+        <svg
+          aria-label="audio-loading"
+          height={100}
+          stroke="#00BFFF"
+          viewBox="0 0 44 44"
+          width={100}
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            fill="none"
+            fillRule="evenodd"
+            strokeWidth="2"
+          >
+            <circle
+              cx="22"
+              cy="22"
+              r={1}
+            >
+              <animate
+                attributeName="r"
+                begin="0s"
+                calcMode="spline"
+                dur="1.8s"
+                keySplines="0.165, 0.84, 0.44, 1"
+                keyTimes="0; 1"
+                repeatCount="indefinite"
+                values="1; 20"
+              />
+              <animate
+                attributeName="strokeOpacity"
+                begin="0s"
+                calcMode="spline"
+                dur="1.8s"
+                keySplines="0.3, 0.61, 0.355, 1"
+                keyTimes="0; 1"
+                repeatCount="indefinite"
+                values="1; 0"
+              />
+            </circle>
+            <circle
+              cx="22"
+              cy="22"
+              r={1}
+            >
+              <animate
+                attributeName="r"
+                begin="-0.9s"
+                calcMode="spline"
+                dur="1.8s"
+                keySplines="0.165, 0.84, 0.44, 1"
+                keyTimes="0; 1"
+                repeatCount="indefinite"
+                values="1; 20"
+              />
+              <animate
+                attributeName="strokeOpacity"
+                begin="-0.9s"
+                calcMode="spline"
+                dur="1.8s"
+                keySplines="0.3, 0.61, 0.355, 1"
+                keyTimes="0; 1"
+                repeatCount="indefinite"
+                values="1; 0"
+              />
+            </circle>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-hKgILt hsvTqH"
+  >
+    <div
+      aria-busy="true"
+      className=""
+      style={Object {}}
+    >
+      <svg
+        aria-label="audio-loading"
+        height={100}
+        stroke="#00BFFF"
+        viewBox="0 0 44 44"
+        width={100}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="none"
+          fillRule="evenodd"
+          strokeWidth="2"
+        >
+          <circle
+            cx="22"
+            cy="22"
+            r={1}
+          >
+            <animate
+              attributeName="r"
+              begin="0s"
+              calcMode="spline"
+              dur="1.8s"
+              keySplines="0.165, 0.84, 0.44, 1"
+              keyTimes="0; 1"
+              repeatCount="indefinite"
+              values="1; 20"
+            />
+            <animate
+              attributeName="strokeOpacity"
+              begin="0s"
+              calcMode="spline"
+              dur="1.8s"
+              keySplines="0.3, 0.61, 0.355, 1"
+              keyTimes="0; 1"
+              repeatCount="indefinite"
+              values="1; 0"
+            />
+          </circle>
+          <circle
+            cx="22"
+            cy="22"
+            r={1}
+          >
+            <animate
+              attributeName="r"
+              begin="-0.9s"
+              calcMode="spline"
+              dur="1.8s"
+              keySplines="0.165, 0.84, 0.44, 1"
+              keyTimes="0; 1"
+              repeatCount="indefinite"
+              values="1; 20"
+            />
+            <animate
+              attributeName="strokeOpacity"
+              begin="-0.9s"
+              calcMode="spline"
+              dur="1.8s"
+              keySplines="0.3, 0.61, 0.355, 1"
+              keyTimes="0; 1"
+              repeatCount="indefinite"
+              values="1; 0"
+            />
+          </circle>
+        </g>
+      </svg>
+    </div>
+  </div>
+</div>
+`;
