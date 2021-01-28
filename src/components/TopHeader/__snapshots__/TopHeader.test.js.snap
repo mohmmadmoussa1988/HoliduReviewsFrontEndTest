@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TopHeader /> should render TopHeader 1`] = `
+<Fragment>
+  <styled.div>
+    <styled.div
+      key="IDWrapper"
+    >
+      ID: 091021
+    </styled.div>
+    <styled.div
+      key="NameWrapper"
+    >
+      La Casa de las Flores
+    </styled.div>
+  </styled.div>
+</Fragment>
+`;

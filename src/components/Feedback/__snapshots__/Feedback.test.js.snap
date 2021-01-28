@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Feedback /> should render Feedback 1`] = `
+<styled.div>
+  <styled.div>
+    <img
+      alt="positiveFeedback"
+      src="thumb-up.svg"
+    />
+    negative feedback
+  </styled.div>
+</styled.div>
+`;
