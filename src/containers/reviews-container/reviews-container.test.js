@@ -6,7 +6,6 @@ import * as reactRedux from "react-redux";
 import { RESULTS } from "./mocked_results";
 import Loading from "../../components/loading/loading.component";
 import { Provider } from "react-redux";
-import store from "../../redux/store";
 import configureMockStore from "redux-mock-store";
 import thunk from "redux-thunk";
 const mockStore = configureMockStore([thunk]);

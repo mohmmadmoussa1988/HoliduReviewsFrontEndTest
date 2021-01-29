@@ -71,16 +71,21 @@ button{
     
     cursor:pointer;
    
-    &:first-child{
-        margin-left:0px;
-    }
+    
+   
     @media only screen and (max-width: 962px) {
-        width:50%;
-        padding:5% 5%;
+        width:20%;
+        padding:2% 5%;
     }
     @media only screen and (max-width: 768px) and (min-width: 640px)  {
         width:46%;
         padding:2% 2%;
+    }
+    &:first-child{
+        margin-left:0px;
+        @media only screen and (max-width: 962px) {
+        margin-right:0px;
+        }
     }
 }
 `;

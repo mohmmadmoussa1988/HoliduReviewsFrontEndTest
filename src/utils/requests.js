@@ -2,8 +2,12 @@ import axios from "axios";
 import { serverUrl } from "../constants/index";
 
 export const reviewsRequest = async (page, limit, score, channel) => {
+  console.log(page, limit, score, channel);
   if (score == 0) {
     score = null;
+  }
+  if (channel == "") {
+    channel = null;
   }
   return await axios.get(
     serverUrl + "reviews",

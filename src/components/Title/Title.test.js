@@ -1,10 +1,10 @@
 import React from "react";
 import { configure, shallow } from "enzyme";
-import CenteredTitle from "./Title";
+import Title from "./Title";
 import toJson from "enzyme-to-json";
-describe(`<CenteredTitle />`, () => {
-  it("should render CenteredTitle", () => {
-    const wrapper = shallow(<CenteredTitle />);
+describe(`<Title />`, () => {
+  it("should render Title", () => {
+    const wrapper = shallow(<Title />);
     expect(toJson(wrapper)).toMatchSnapshot();
   });
 });

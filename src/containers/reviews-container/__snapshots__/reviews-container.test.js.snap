@@ -176,7 +176,7 @@ exports[`<ReviewsContainer /> should render ReviewsContainer 1`] = `
             </select>
           </div>
           <div
-            className="sc-fFubgz kMqHpz"
+            className="sc-fFubgz hNaNNz"
           >
             <button
               className="sc-dmlrTW dAwzsg"
